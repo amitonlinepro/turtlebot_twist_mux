@@ -1,0 +1,11 @@
+twist_mux:
+  ros__parameters:
+    topics:
+      - name: teleop
+        topic: /teleop/cmd_vel
+        timeout: 0.5
+        priority: 100
+      - name: random_mover
+        topic: /random_mover/cmd_vel
+        timeout: 0.5
+        priority: 50
